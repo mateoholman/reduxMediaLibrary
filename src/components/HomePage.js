@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router';
 
 // Home page component. This serves as the welcome page with link to the library
+// It is a stateless functional component to allow us to separate our
+// presentational and container components.
 const HomePage = () => (
   <div className="jumbotron center">
     <h1 className="lead">Welcome to Media Library built with React, Redux, and Redux-saga </h1>
