@@ -1,5 +1,5 @@
 import { put, call } from 'redux-saga/effects';
-import { flickrImages, shutterStockVideos } from '../Api/api';
+import { flickrImages, shutterStockVideos } from '../API/api';
 import * as types from '../constants/actionTypes';
 
 // Responsible for searching media library, making calls to the API
